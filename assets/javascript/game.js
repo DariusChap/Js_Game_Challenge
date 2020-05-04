@@ -15,8 +15,9 @@ const resetNumber = document.querySelector("#num-resets");
 teamoneButton.addEventListener("click", function() {
     count = parseInt(teamoneNumShots.innerText) + 1;
     teamoneNumShots.innerText = count;
-    
-    
+    var swoosh = new Audio('')
+
+
     const rand = Math.random();
     if (rand > 0.5) {
         console.log("Greater than" + rand)
