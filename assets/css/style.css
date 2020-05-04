@@ -3,7 +3,6 @@
 }
 .left {
     float: left;
-    
 }
 .right {
     float: right;
@@ -14,3 +13,27 @@
 #reset-container, h1 {
     text-align: center;
 }
+
+.team1 {
+    text-transform: uppercase;
+}
+
+body {
+    background-image: url('https://previews.123rf.com/images/praewpailin/praewpailin1803/praewpailin180300003/97368347-basketball-ball-on-basketball-court-background-with-line-court-area-vector-illustration-.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2 {
+    color: red;
+    text-transform: capitalize;
+    font-size: 15px larger;
+    font-weight: bolder;
+}
+
+h1 {
+    color: red;
+    margin-top: 50px;
+}
+
